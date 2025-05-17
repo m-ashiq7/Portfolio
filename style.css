@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #f3f3f3;
+  padding: 40px;
+  width: 100%;
+  max-width: 1100px;
+  border-radius: 12px;
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.left h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.left h2 span {
+  color: red;
+}
+
+.left h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.right {
+  max-width: 500px;
+}
+
+.right .highlight {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.right .subtext {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 24px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.info div {
+  margin-right: 30px;
+}
+
+.info span {
+  color: red;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.stat.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.stat strong {
+  display: block;
+  font-size: 28px;
+}
+
+
+.email-button {
+  display: inline-block;
+  background-color: red;
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.email-button:hover {
+  background-color: darkred;
+}
+
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
